@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: goldenrod;
+}
+
+.navbar {
+  min-height: 50px;
+  background-color: gray;
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-lists {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-utils {
+  margin-left: 100px;
+}
+
+.searchbar {
+  width: 200px;
+  height: 25px;
+}
+
+.header-list {
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.header-list a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.header-list:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search-submit {
+  height: 25px;
+}
+
+.user-img {
+  width: 20px;
+}
+
+#veggie {
+  margin-left: 150px;
+}
+
+#logo {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.hero {
+  margin-top: 70px;
+  height: 50vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.basket-title {
+  height: 10vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.basket {
+  height: 170vh;
+  background-color: blanchedalmond;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.basket-wrapper {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 60px;
+  overflow: hidden;
+}
+
+.veggie-card {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.veggie-card:hover {
+  scale: calc(1.04);
+  box-shadow: 1px 1px gray;
+}
+
+.veggie-img {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.veggie-content {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.veggie-type {
+  width: 90%;
+  margin-left: 2px;
+}
+
+.veggie-add-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.veggie-qty {
+  width: 20%;
+  margin-right: 90px;
+}
+
+.footer-title {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #485668;
+  color: aliceblue;
+}
+
+.footer-content {
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #222f3f;
+}
+
+.footer-content-container {
+  width: 90vw;
+  max-height: 100vh;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 40px;
+}
+
+.footer-content-title {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  margin: 10px 0px;
+}
