@@ -19,6 +19,7 @@ body {
   color: aliceblue;
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 100%;
 }
 
@@ -96,7 +97,7 @@ body {
 }
 
 .basket {
-  height: 170vh;
+  min-height: 70vh;
   background-color: blanchedalmond;
   margin-top: 20px;
   display: flex;
@@ -108,7 +109,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1em;
-  margin: 60px;
+  margin: 60px 0;
   overflow: hidden;
 }
 
@@ -142,7 +143,7 @@ body {
 }
 
 .veggie-add-container {
-  margin-top: 10px;
+  margin: 20px 0;
   display: flex;
 }
 
@@ -182,4 +183,12 @@ body {
   font-size: 1.5rem;
   text-decoration: underline;
   margin: 10px 0px;
+}
+
+input, textarea, button{
+  padding: 0 10px;
+}
+
+.basket input{
+  padding: 0;
 }
