@@ -10,13 +10,15 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: goldenrod;
+  background-color: rgb(255, 252, 252);
+  font-size: 20px;
+  font-family: cursive;
 }
 
 .navbar {
   min-height: 50px;
-  background-color: gray;
-  color: aliceblue;
+  background-color: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
   z-index: 1;
@@ -24,7 +26,7 @@ body {
 }
 
 .header-lists {
-  height: 50px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   gap: 1.5em;
@@ -35,6 +37,7 @@ body {
 
 .search-utils {
   margin-left: 100px;
+  padding-top: 20px;
 }
 
 .searchbar {
@@ -48,7 +51,7 @@ body {
 }
 
 .header-list a {
-  color: aliceblue;
+  color: rgb(255, 174, 0);
   text-decoration: none;
 }
 
@@ -75,9 +78,9 @@ body {
 }
 
 .hero {
-  margin-top: 70px;
+  margin-top: 100px;
   height: 50vh;
-  background-color: bisque;
+  background-color: rgb(80,162,50);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,17 +91,18 @@ body {
 
 .basket-title {
   height: 10vh;
-  background-color: burlywood;
+  background-color: rgb(80,162,50);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 40px;
   margin-top: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .basket {
   min-height: 70vh;
-  background-color: blanchedalmond;
+  background-color: rgb(194, 170, 92);
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -191,4 +195,94 @@ input, textarea, button{
 
 .basket input{
   padding: 0;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to bottom right, #4CAF50, #2196F3);
+}
+
+.login-container {
+  width: 350px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+#button-login {
+  width: 100%;
+  padding: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e9142;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
 }
