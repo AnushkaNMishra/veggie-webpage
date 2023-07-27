@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Login Page</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-  <header>
-    <nav class="navbar">
-      <ul class="header-lists">
-        <li class="header-list" id="logo"><b>Freggies</b></li>
-        <li class="header-list" id="veggie">Vegetables</li>
-        <li class="header-list">Fruits</li>
-        <li class="header-list">Home</li>
-        <li class="header-list"><a href="#about">About Us </a></li>
-        <li class="header-list">Contact Us</li>
-        <div class="search-utils">
-          <input type="text" placeholder="Search" class="searchbar" />
-          <button class="search-submit">Submit</button>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="header-lists">
+          <li class="header-list" id="logo"><b>Freggies</b></li>
+          <li class="header-list" id="veggie">Vegetables</li>
+          <li class="header-list">Fruits</li>
+          <li class="header-list">Home</li>
+          <li class="header-list"><a href="#about">About Us </a></li>
+          <li class="header-list">Contact Us</li>
+          <div class="search-utils">
+            <input type="text" placeholder="Search" class="searchbar" />
+            <button class="search-submit">Submit</button>
+          </div>
+          <li class="header-list">Add To Cart</li>
+          <a
+            href="login.html"
+            img
+            class="user-img"
+            src="assets/user.png"
+            alt="user"
+            >login</a
+          >
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="login-body">
+        <div class="login-container">
+          <h1>Login</h1>
+          <form id="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+            <button id="button-login" type="submit">Login</button>
+          </form>
         </div>
-        <li class="header-list">Add To Cart</li>
-        <a href="login.html" img class="user-img" src="assets/user.png" alt="user" >login</a>
-      </ul>
-    </nav>
-  </header>
-
-    <div id="login-body">
-  <div class="login-container">
-    <h1>Login</h1>
-    <form id="login-form">
-      <label for="username">Username</label>
-      <input type="text" id="username" name="username" required>
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" required>
-      <button id="button-login" type="submit">Login</button>
-    </form>
-  </div>
-</div>
+      </div>
+    </main>
+  </body>
   <script src="script.js"></script>
-</body>
 </html>

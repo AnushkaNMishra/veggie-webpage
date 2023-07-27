@@ -11,335 +11,457 @@
     <header>
       <nav class="navbar">
         <ul class="header-lists">
-          <li class="header-list" id="logo"><b>Freggies</b></li>
+          <li class="header-list">
+            <img id="logo-img" src="assets/logo.jpg" alt="logo" />
+          </li>
           <li class="header-list" id="veggie">Vegetables</li>
           <li class="header-list">Fruits</li>
           <li class="header-list">Home</li>
           <li class="header-list"><a href="#about">About Us </a></li>
-          <li class="header-list">Contact Us</li>
+          <li class="header-list"><a href="#contact">Contact Us </a></li>
           <div class="search-utils">
             <input type="text" placeholder="Search" class="searchbar" />
             <button class="search-submit">Submit</button>
           </div>
           <li class="header-list">Add To Cart</li>
-          <a href="login.html" img class="user-img" src="assets/user.png" alt="user" >login</a>
+          <a href="login.html">
+            <img id="user-pic" src="assets/user.png" alt="user" />
+          </a>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="hero"></div>
-      <div class="basket-title">My Smart Basket</div>
-      <div class="basket">
-        <div class="basket-wrapper">
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+      <div class="main-wrapper">
+        <div class="hero"></div>
+        <div class="basket-title">My Smart Basket</div>
+        <div class="basket">
+          <div class="best-offers">
+            <div class="offer-title">BEST OFFERS</div>
+            <div class="offer-cards">
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
+              </div>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+          <div class="best-offers">
+            <div class="offer-title">BEST OFFERS</div>
+            <div class="offer-cards">
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">3kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
-              </div>
-            </div>
-          </div>
-          <div class="veggie-card">
-            <div class="veggie-img-container">
-              <img
-                class="veggie-img"
-                src="assets/capsicum.jpg"
-                alt="capsicum"
-              />
-            </div>
-            <div class="veggie-content">
-              <select class="veggie-type">
-                <option value="t1">500g for Rs.60</option>
-                <option value="t2">1kg for Rs.100</option>
-                <option value="t3">2kg for Rs.150</option>
-              </select>
-              <div class="veggie-add-container">
-                <label for="qty">Qty. </label>
-                <input
-                  class="veggie-qty"
-                  name="qty"
-                  placeholder="1"
-                  type="number"
-                />
-                <button>+ Add</button>
+              <div class="veggie-card">
+                <div class="veggie-img-container">
+                  <img
+                    class="veggie-img"
+                    src="assets/capsicum.jpg"
+                    alt="capsicum"
+                  />
+                </div>
+                <div class="veggie-content">
+                  <select class="veggie-type">
+                    <option value="t1">500g for Rs.60</option>
+                    <option value="t2">1kg for Rs.100</option>
+                    <option value="t3">2kg for Rs.150</option>
+                  </select>
+                  <div class="veggie-add-container">
+                    <div class="qty-wrapper">
+                      <label for="qty">Qty. </label>
+                      <input
+                        class="veggie-qty"
+                        name="qty"
+                        placeholder="1"
+                        type="number"
+                      />
+                    </div>
+                    <button>+ Add</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -347,35 +469,94 @@
       </div>
     </main>
     <footer>
-      <div class="footer-title">El Emporio</div>
-      <div class="footer-content">
-        <div class="footer-content-container">
-          <div class="footer-content-title" id="about">About Us</div>
-          <p>
-            At El Emporio, we are passionate about providing the freshest and
-            highest quality products to our valued customers. Our store is a
-            haven for food enthusiasts, offering a wide variety of fresh
-            produce, organic products, pantry essentials, and much more. Whether
-            you're a seasoned chef or a home cook, El Emporio is your one-stop
-            shop for all your grocery needs. We are committed to offering
-            competitive prices without compromising on quality.Come visit us at
-            El Emporio, and experience the difference in our carefully curated
-            selection of products. We look forward to welcoming you with open
-            arms and becoming a part of your culinary journey. Thank you for
-            choosing El Emporio as your trusted grocery destination. Together,
-            let's make every meal exceptional!
-          </p>
-          <div class="footer-content-title">Feedback for Us</div>
-          <div class="feedback">
-            <label for="fedback-text">Feedback: </label>
-            <textarea class="feedback-text" name="fedback-text" cols="30" rows="10" placeholder="I think it should have ...."></textarea>
-            <br />
-            <br />
-            <label for="contact">Mail Us: </label>
-            <input name="contact" type="email" placeholder="yourmail@gmail.com" />
-            <br />
-            <br />
-            <button>Submit</button>
+      <div class="footer-wrapper">
+        <div class="footer-links">
+          <section class="first">
+            <div class="section-title">Useful Links</div>
+            <div class="section-content">
+              <div class="footer-block">
+                <ul>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                </ul>
+              </div>
+              <div class="footer-block">
+                <ul>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                </ul>
+              </div>
+              <div class="footer-block">
+                <ul>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="second">
+            <div class="section-title">Useful Links</div>
+            <div class="section-content">
+              <div class="footer-block">
+                <ul>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                </ul>
+              </div>
+              <div class="footer-block">
+                <ul>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                </ul>
+              </div>
+              <div class="footer-block">
+                <ul>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                  <li>About</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="footer-end">
+        <p>
+          © Freggies Commerce Private Limited (formerly known as Grofers India
+          Private Limited), 2016-2023
+        </p>
+        <div class="footer-social">
+          <p id="contact">SOCIAL LINKS --</p>
+          <div class="footer-icons">
+            <img src="assets/facebook.png" alt="facebook" />
+            <img src="assets/twitter.png" alt="twitter.png" />
+            <img src="assets/instagram.png" alt="instagram.png" />
+            <img src="assets/linkedin-logo.png" alt="linkedin-logo.png" />
+            <img src="assets/call.png" alt="call.png" />
+            <img src="assets/email.png" alt="email" />
           </div>
         </div>
       </div>

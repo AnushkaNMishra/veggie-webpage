@@ -10,14 +10,51 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: rgb(255, 252, 252);
+  background: hsla(186, 33%, 94%, 1);
+
+  background: radial-gradient(
+    circle,
+    hsla(186, 33%, 94%, 1) 40%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -moz-radial-gradient(
+    circle,
+    hsla(186, 33%, 94%, 1) 40%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -webkit-radial-gradient(
+    circle,
+    hsla(186, 33%, 94%, 1) 40%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
   font-size: 20px;
   font-family: cursive;
 }
 
+ul {
+  list-style-type: none;
+}
+
+#logo-img {
+  width: 130px;
+}
+
+.main-wrapper {
+  width: 80%;
+  margin: 0px auto;
+}
+
+#user-pic {
+  width: 30px;
+}
+
 .navbar {
   min-height: 50px;
-  background-color: rgb(255, 255, 0);
+  background-color: #71a96c;
   color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
@@ -51,7 +88,7 @@ body {
 }
 
 .header-list a {
-  color: rgb(255, 174, 0);
+  color: black;
   text-decoration: none;
 }
 
@@ -80,7 +117,7 @@ body {
 .hero {
   margin-top: 100px;
   height: 50vh;
-  background-color: rgb(80,162,50);
+  background-color: rgb(80, 162, 50);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,38 +128,50 @@ body {
 
 .basket-title {
   height: 10vh;
-  background-color: rgb(80,162,50);
+  background-color: rgb(80, 162, 50);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
   margin-top: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .basket {
   min-height: 70vh;
-  background-color: rgb(194, 170, 92);
-  margin-top: 20px;
+  background-color: inherit;
+  margin: 60px 0;
   display: flex;
+  flex-direction: column;
+  gap: 40px;
   justify-content: center;
 }
 
-.basket-wrapper {
-  width: 80%;
+.best-offers {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.offer-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1em;
-  margin: 60px 0;
-  overflow: hidden;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  gap: 60px;
 }
 
 .veggie-card {
   display: flex;
   flex-direction: column;
-  background-color: aliceblue;
+  background-color: #fffaff;
   align-items: center;
   border-radius: 10px;
+  max-width: 200px;
+  min-height: 300px;
+  background-color: white;
+  gap: 20px;
 }
 
 .veggie-card:hover {
@@ -132,28 +181,40 @@ body {
 
 .veggie-img {
   margin-top: 20px;
-  width: 200px;
+  width: 150px;
   border-radius: 10px;
 }
 
 .veggie-content {
-  margin-top: 10px;
-  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .veggie-type {
   width: 90%;
-  margin-left: 2px;
+  height: 25px;
 }
 
 .veggie-add-container {
   margin: 20px 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+}
+
+.qty-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .veggie-qty {
-  width: 20%;
-  margin-right: 90px;
+  height: 33px;
+  width: 50px;
+  margin: 5px;
 }
 
 .footer-title {
@@ -189,28 +250,64 @@ body {
   margin: 10px 0px;
 }
 
-input, textarea, button{
+input,
+textarea,
+button {
   padding: 0 10px;
 }
 
-.basket input{
+.basket input {
   padding: 0;
 }
 
-  
+.footer-wrapper {
+  width: 80%;
+  margin: 70px 0px 0px 20%;
+}
 
+.footer-links {
+  display: flex;
+  gap: 15em;
+}
 
+.section-content {
+  margin: 20px 0px;
+  display: flex;
+  gap: 5rem;
+}
 
+.footer-block li {
+  margin: 6px 0px;
+}
 
+.footer-end {
+  margin: 40px 0 0 0;
+  background-color: #71a96c;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
 
+.footer-icons img {
+  width: 30px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
 
+.footer-icons img:hover {
+  scale: calc(1.2);
+}
 
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-
-
-
-
+/* LOGIN STYLES */
 
 #login-body {
   display: flex;
@@ -218,7 +315,7 @@ input, textarea, button{
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: linear-gradient(to bottom right, #4CAF50, #2196F3);
+  background-image: linear-gradient(to bottom right, #4caf50, #2196f3);
 }
 
 .login-container {
@@ -252,13 +349,13 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: #4caf50;
 }
 
 #button-login {
   width: 100%;
   padding: 14px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
