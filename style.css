@@ -162,6 +162,9 @@ ul {
   gap: 60px;
 }
 
+.offer-title{
+  text-transform: uppercase;
+}
 .veggie-card {
   display: flex;
   flex-direction: column;
@@ -181,6 +184,7 @@ ul {
 
 .veggie-img {
   margin-top: 20px;
+  min-height: 150px;
   width: 150px;
   border-radius: 10px;
 }
@@ -283,7 +287,7 @@ button {
 .footer-end {
   margin: 40px 0 0 0;
   background-color: #71a96c;
-  min-height: 20vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,21 +310,45 @@ button {
   align-items: center;
   justify-content: center;
 }
+.social-links {
+  display:flex;
+  gap:15px;
+}
+.social-links img  {
+width: 30px;
 
+}
+.social-links img:hover  {
+ scale:calc(1.2);
+  
+  }
 /* LOGIN STYLES */
 
 #login-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   background-image: linear-gradient(to bottom right, #4caf50, #2196f3);
 }
 
+
+
 .login-container {
-  width: 350px;
-  padding: 40px;
+  width: 600px;
+  padding: 30px;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-container {
+  width: 600px;
+  padding: 30px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -328,23 +356,24 @@ button {
 
 h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #444;
 }
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: bold;
   color: #666;
 }
 
 input {
   width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
+  height:50px;
+  padding: 7px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 input:focus {
@@ -383,3 +412,120 @@ button:disabled {
 button:disabled:hover {
   background-color: #ccc;
 }
+
+
+
+
+/* Footer style*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');*/
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #71a96c;
+    padding: 70px 0;
+}
+
+.register-footer{
+  background-color: #71a96c;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}/*
+.footer-col .social-links a{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}*/
+
+.footer-icons img {
+  width: 30px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.footer-icons img:hover {
+  scale: calc(1.2);
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+

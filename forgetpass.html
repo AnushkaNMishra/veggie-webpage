@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+          <ul class="header-lists">
+            <li class="header-list">
+              <img id="logo-img" src="assets/logo.jpg" alt="logo" />
+            </li>
+            <li class="header-list" id="veggie"><a href="index.html">Home</a></li>
+            <li class="header-list">Vegetables</li>
+            <li class="header-list">Fruits</li>
+            
+            <li class="header-list"><a href="#about">About Us </a></li>
+            <li class="header-list"><a href="#contact">Contact Us </a></li>
+            <div class="search-utils">
+              <input type="text" placeholder="Search" class="searchbar" />
+              <button class="search-submit">Submit</button>
+            </div>
+            <li class="header-list">Add To Cart</li>
+            <a href="login.html">
+              <img id="user-pic" src="assets/user.png" alt="user" />
+            </a>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <div id="login-body">
+        <div class="login-container">
+          <h1>Reset Password</h1>
+          <form id="login-form">
+            <label for="username">Username</label>
+            <input type="username" id="username" name="username" required />
+            <label for="password">New Password</label>
+            <input type="passwrod" id="password" name="password" required />
+            <label for="password">Confirm New Password</label>
+            <input type="passwrod" id="password" name="password" required />
+            <button id="button-login" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
