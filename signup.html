@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="register-body">
+    <header>
+        <nav class="navbar">
+          <ul class="header-lists">
+            <li class="header-list">
+              <img id="logo-img" src="assets/logo.jpg" alt="logo" />
+            </li>
+            <li class="header-list" id="veggie"><a href="index.html">Home</a></li>
+            <li class="header-list">Vegetables</li>
+            <li class="header-list">Fruits</li>
+            
+            <li class="header-list"><a href="#about">About Us </a></li>
+            <li class="header-list"><a href="#contact">Contact Us </a></li>
+            <div class="search-utils">
+              <input type="text" placeholder="Search" class="searchbar" />
+              <button class="search-submit">Submit</button>
+            </div>
+            <li class="header-list">Add To Cart</li>
+            <a href="login.html">
+              <img id="user-pic" src="assets/user.png" alt="user" />
+            </a>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <div id="login-body">
+        <div class="register-container">
+          <h1>Register</h1>
+          <form id="login-form">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required />
+            <label for="lastname">Last Name</label>
+            <input type="lastname" id="lastname" name="lastname" required />
+            <label for="username">Username</label>
+            <input type="username" id="username" name="username" required />
+            <label for="password">Password</label>
+            <input type="passwrod" id="password" name="password" required />
+            <label for="password">Confirm Password</label>
+            <input type="passwrod" id="password" name="password" required />
+            <button id="button-login" type="submit">Register</button>
+            <br>
+            <span>Have an account? <a href="login.html"><br>Login</a></span>
+          </form>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="register-footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Freggies</h4>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our services</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><img src="assets/facebook.png" alt="facebook" /> </a>
+                <a href="#"><img src="assets/twitter.png" alt="twitter.png" /></a>
+                <a href="#"><img src="assets/instagram.png" alt="instagram.png" /></a>
+                <a href="#"><img src="assets/linkedin-logo.png" alt="linkedin-logo.png" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

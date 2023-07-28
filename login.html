@@ -8,25 +8,23 @@
     <header>
       <nav class="navbar">
         <ul class="header-lists">
-          <li class="header-list" id="logo"><b>Freggies</b></li>
-          <li class="header-list" id="veggie">Vegetables</li>
+          <li class="header-list">
+            <img id="logo-img" src="assets/logo.jpg" alt="logo" />
+          </li>
+          <li class="header-list" id="veggie"><a href="index.html">Home</a></li>
+          <li class="header-list">Vegetables</li>
           <li class="header-list">Fruits</li>
-          <li class="header-list">Home</li>
+          
           <li class="header-list"><a href="#about">About Us </a></li>
-          <li class="header-list">Contact Us</li>
+          <li class="header-list"><a href="#contact">Contact Us </a></li>
           <div class="search-utils">
             <input type="text" placeholder="Search" class="searchbar" />
             <button class="search-submit">Submit</button>
           </div>
           <li class="header-list">Add To Cart</li>
-          <a
-            href="login.html"
-            img
-            class="user-img"
-            src="assets/user.png"
-            alt="user"
-            >login</a
-          >
+          <a href="login.html">
+            <img id="user-pic" src="assets/user.png" alt="user" />
+          </a>
         </ul>
       </nav>
     </header>
@@ -39,7 +37,9 @@
             <input type="text" id="username" name="username" required />
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required />
-            <button id="button-login" type="submit">Login</button>
+            <button id="button-login" type="submit">Login</button><br><br>
+            <p><a href="forgetpass.html">Forget password?</a></p>
+            <p>Don't Have an Account?<a href="signup.html">Sign Up</a></p>
           </form>
         </div>
       </div>
